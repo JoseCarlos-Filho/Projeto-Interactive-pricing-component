@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Manrope';
+    font-family: 'Montserrat';
 }
 
 body {
@@ -17,8 +17,30 @@ body {
     justify-content: center;
 } 
 
+
+
 .img_top {
     position: absolute;
-    height: 50%;
+    height: 80%;
     z-index: -1;
 }
+
+ .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 2% 22% 0% 22%;
+    font-size: 15px;
+}
+
