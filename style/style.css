@@ -1,1 +1,24 @@
 /* Arquivo de estilos */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope';
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+    
+ .top_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.img_top {
+    position: absolute;
+    height: 50%;
+    z-index: -1;
+}
