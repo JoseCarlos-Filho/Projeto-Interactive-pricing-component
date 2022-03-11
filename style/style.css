@@ -97,21 +97,13 @@ p {
     margin-left: 2%;
 }
 
-.content2 {
+ .content2 {
     position: relative;
     top: -1%;
 }
 
-progress {
-    height: 20px;
-    width: 300px;
-}
 
-.content2 button {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-}
+
 
 
 
