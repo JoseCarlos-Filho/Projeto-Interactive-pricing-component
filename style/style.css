@@ -48,7 +48,7 @@ p {
     top: 6%;
 }
 
-/* ---------- top page ------------ */
+/* ---------- fim top page ------------ */
 
 /* ---------- Componente do meio caixa branca. segunda section -------------- */
 .box_middle {
@@ -73,11 +73,51 @@ p {
     flex-direction: column;
 }
 
+/* ------------- fim do componente do meio ------------------ */
+
+/* ------------ Estilos dos components ---------------------- */
+
 .content1 {
-    
+    position: relative;
+    top: -15%;
+    left: 15%;
 }
 
-/* ------------- fim do componente do meio ------------------ */
+.content1 input[type=text] {
+   border: none;
+   font-size: 12px;
+   color: hsl(227, 35%, 25%);
+   background-color: hsl(225, 20%, 60%);
+   width: 20%;
+}
+
+.content1 label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.content2 {
+    position: relative;
+    top: -1%;
+}
+
+progress {
+    height: 20px;
+    width: 300px;
+}
+
+.content2 button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+
+
+
+
+/* ------------- fim dos estilos dos componentes -------------*/
 
 /* ------------- ultimo componente caixa branca - Box_Footer  ------------------ */
 .box_footer {
@@ -87,7 +127,7 @@ p {
 }
 
 .list_footer {
-    height: 20%;
+    height: 25%;
     width: 90%;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 5px 10px hsl(225, 20%, 60%);
