@@ -79,7 +79,7 @@ p {
 
 .content1 {
     position: relative;
-    top: -15%;
+    top: -20%;
     left: 15%;
 }
 
@@ -99,8 +99,29 @@ p {
 
  .content2 {
     position: relative;
-    top: -1%;
+    top: -5%;
 }
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: hsl(174, 77%, 80%);
+}
+
+input[type=range]::slider-thumb {
+    border-radius: 50%;
+}
+
+/* #campo::slider-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(174, 86%, 45%);
+} */
 
 
 
