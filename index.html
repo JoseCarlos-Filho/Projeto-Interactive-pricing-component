@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope">
   <link rel="stylesheet" href="./style/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   <script src="./JS/acoes.js"></script>
   
   <title>Componente de Preço Interativo</title>
@@ -21,14 +21,14 @@
           <div>
               <h1>Simple, traffic-based pricing</h1>
               <p>Sign-up for our 30-day trial. No credit card required.</p>
-              <img  class="img_top_circle" src="./images/pattern-circles.svg" alt="">
           </div>
+          <img  class="img_top_circle" src="./images/pattern-circles.svg" alt="">
     </section>
 
     <section class="box_middle">
       <div class="box_white1">
             <div class="content1"> 
-                <input type="text"><label>PAGEVIEWS</label>
+                <input type="text"  value="100k"><label>PAGEVIEWS</label>
             </div>
 
             <div class="content2">
@@ -36,16 +36,17 @@
             </div>
 
             <div class="content3">
-              <Label>$</Label><input type="text"><label for="">/month</label>
+              <Label class="sifra">$</Label><input type="text" value="16.00"><label for="mes" class="mes">/month</label>
             </div>
             
             <div class="content4">
-              <label for="">Monthly Billing</label>
-              <label for="" class="switch">
-              <input type="checkbox">
-              <span class="slider round"></span>
-              </label>
-              <label for=""> Yearly Billing</label>
+                <label for="" class="label1">Monthly Billing</label>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+                <label for="" class="label1"> Yearly Billing</label>
+                <input type="text" value="-25%" id="desconto">
             </div>
           </div>
     </section>
