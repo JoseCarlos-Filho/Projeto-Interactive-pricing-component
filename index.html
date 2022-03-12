@@ -7,12 +7,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope">
   <link rel="stylesheet" href="./style/style.css">
-  <script src="./JS/acoes.js"></script>
   
   <title>Componente de Preço Interativo</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
+<script src="./JS/acoes.js"></script>
 <body>
   
   <!-- <main> -->
@@ -28,11 +28,24 @@
     <section class="box_middle">
       <div class="box_white1">
             <div class="content1"> 
-                <input type="text"  value="100k"><label>PAGEVIEWS</label>
+                <p><span id="valor"></span>PAGEVIEWS</p>
             </div>
 
             <div class="content2">
-                <input type="range" id="campo">
+                <input type="range" id="campo" class="camposlider"  list="tickmarks">
+                <datalist id="tickmarks">
+                  <option value="0">
+                  <option value="10">
+                  <option value="20">
+                  <option value="30">
+                  <option value="40">
+                  <option value="50">
+                  <option value="60">
+                  <option value="70">
+                  <option value="80">
+                  <option value="90">
+                  <option value="100">
+                </datalist>
             </div>
 
             <div class="content3">
@@ -62,23 +75,5 @@
       </div>
     </section>
 
-  <!-- </main> -->
-
-  
-   
-
-  
-  
-
-  <!-- Monthly Billing
-  Yearly Billing 25% discount
-
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial -->
-  
-  
-</body>
+  </body>
 </html>

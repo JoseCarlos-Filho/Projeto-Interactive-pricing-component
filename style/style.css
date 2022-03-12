@@ -88,46 +88,46 @@ p {
 .content1 {
     position: relative;
     top: -20%;
-    left: 20%;
+    left: -10%;
 }
 
-.content1 input[type=text] {
-   border: none;
-   font-size: 15px;
-   font-weight: bold;
-   color: hsl(227, 35%, 25%);
-   width: 16%;
+.content1 p {
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(225, 20%, 60%);
+    width: 35%;
 }
 
-.content1 input[value] {
+.content1 span {
     font-size: 15px;
     font-weight: 800;
     color: hsl(225, 20%, 60%);
-}
-
-.content1 label {
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0;
-    color: hsl(225, 20%, 60%);
+    padding: 10px;
 }
 
  .content2 {
     position: relative;
     top: -5%;
+    left: 0%;
 }
 
 input[type=range] {
     -webkit-appearance: none;
-    appearance: none;
     width: 300px;
     height: 8px;
     border-radius: 10px;
-    background-color: hsl(174, 77%, 80%);
+    outline: none;
+    background: linear-gradient(90deg, hsl(225, 20%, 60%) 50%, hsl(225, 20%, 60%)  50%);
 }
 
- #campo::-webkit-slider-thumb {
+.camposlider:hover {
+    opacity: 1;
+}
+
+/* O componente -webkit-slider-thumb é executado em navegadores chrome  */
+.camposlider::-webkit-slider-thumb {
     -webkit-appearance: none;
+    appearance: none;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -137,7 +137,22 @@ input[type=range] {
     background-position: center;
     box-shadow: 0px 10px 30px hsl(174, 86%, 45%);
     background-size: 15px;
+    cursor: pointer;
 } 
+
+/* O componente -moz-range-thumb é executado em navegadores firefox  */
+.camposlider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(174, 86%, 45%);
+    background-image: url(../images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 30px hsl(174, 86%, 45%);
+    background-size: 15px;
+    cursor: pointer;
+}
 
 .content3 {
     position: relative;
