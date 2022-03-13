@@ -88,21 +88,31 @@ p {
 .content1 {
     position: relative;
     top: -20%;
-    left: -10%;
+    display: flex;
 }
 
 .content1 p {
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 800;
     color: hsl(225, 20%, 60%);
-    width: 35%;
+    margin: 0 auto;
+    
 }
+
+.content1 .p1 {
+    padding: 0px 5px 0px 0px;
+    font-size: 15px;
+    font-weight: 800;
+    color: hsl(225, 20%, 60%);
+    
+} 
 
 .content1 span {
     font-size: 15px;
     font-weight: 800;
     color: hsl(225, 20%, 60%);
-    padding: 10px;
+    padding: 0px;
+    
 }
 
  .content2 {
@@ -117,7 +127,7 @@ input[type=range] {
     height: 8px;
     border-radius: 10px;
     outline: none;
-    background: linear-gradient(90deg, hsl(225, 20%, 60%) 50%, hsl(225, 20%, 60%)  50%);
+    background: linear-gradient(90deg, hsl(225, 20%, 60%) 10%, hsl(225, 20%, 60%)  10%);
 }
 
 .camposlider:hover {
