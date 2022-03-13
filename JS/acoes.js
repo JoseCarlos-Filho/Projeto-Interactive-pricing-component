@@ -21,11 +21,11 @@ slider.oninput = function() {
             precovenda.value = '12.00';
             precovenda.innerHTML = precovenda.value;
         }
-        else if ((n >= '100') && (n < '500')) {
+        else if ((n >= 100) && (n < 500)) {
             precovenda.value = '16.00';
             precovenda.innerHTML = precovenda.value;
         } 
-        else if ((n >= '500') && (n < '1000')) {
+        else if ((n >= 500) && (n < 1000)) {
             precovenda.value = '24.00';
             precovenda.innerHTML = precovenda.value;
         }
