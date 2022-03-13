@@ -12,10 +12,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
-<script src="./JS/acoes.js"></script>
 <body>
-  
-  <!-- <main> -->
     
     <section class="top_page">
           <div>
@@ -32,24 +29,11 @@
             </div>
 
             <div class="content2">
-                <input type="range" id="campo" class="camposlider"  list="tickmarks">
-                <datalist id="tickmarks">
-                  <option value="0">
-                  <option value="10">
-                  <option value="20">
-                  <option value="30">
-                  <option value="40">
-                  <option value="50">
-                  <option value="60">
-                  <option value="70">
-                  <option value="80">
-                  <option value="90">
-                  <option value="100">
-                </datalist>
+                <input type="range" id="campo" min="1" max="100" value="1" class="camposlider">
             </div>
 
             <div class="content3">
-              <Label class="sifra">$</Label><input type="text" value="16.00"><label for="mes" class="mes">/month</label>
+              <Label class="sifra">$</Label><input type="text" value="16.00"><label for="" class="mes">/month</label>
             </div>
             
             <div class="content4">
@@ -76,4 +60,5 @@
     </section>
 
   </body>
+  <script src="JS/acoes.js"></script>
 </html>
