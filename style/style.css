@@ -127,7 +127,7 @@ input[type=range] {
     height: 8px;
     border-radius: 10px;
     outline: none;
-    background: linear-gradient(90deg, hsl(225, 20%, 60%) 10%, hsl(225, 20%, 60%)  10%);
+    background: linear-gradient(90deg, hsl(225, 20%, 60%) 100%, hsl(225, 20%, 60%) 100%);
 }
 
 .camposlider:hover {
