@@ -1,0 +1,72 @@
+/* Arquivo de estilos */
+
+
+/* ---------- top page primeira section ------------ */
+    
+
+/* ---------- fim top page ------------ */
+
+/* ---------- Componente do meio caixa branca. segunda section -------------- */
+
+
+/* ------------- caixa branca seção do meio ------------------ */
+
+/* ------------ Estilos dos componentes  da seção do meio ---------------------- */
+
+
+
+ /* --------------- Seção do campo slider ------------------ */
+
+ 
+
+
+/* ------------- fim dos estilos dos componentes -------------*/
+
+/* ------------- ultimo componente caixa branca - Box_Footer  ------------------ */
+.box_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_footer {
+    height: 25%;
+    width: 90%;
+    margin-left: 1%;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 5px 10px hsl(225, 20%, 60%);
+
+    position: absolute;
+    z-index: 20;
+    top: 72.12%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    color: hsl(225, 20%, 60%);
+    margin: 3% 0% 10% 0%;
+    text-align: center;
+}
+
+li::before {
+    content: url(../images/icon-check.svg);
+    position: relative;
+    left: -7%;
+}
+
+.list_footer button {
+    height: 35px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: hsl(227, 35%, 25%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+/* --------------- fim do bloco de lista Footer ------------------ */
