@@ -34,16 +34,17 @@
     left: 0%;
 }
 
-input[type=range] {
-    -webkit-appearance: none;
+.camposlider {
+    appearance: none;
+    height: 10px;
     width: 300px;
-    height: 8px;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     background: linear-gradient(90deg, hsl(225, 20%, 60%) 100%, hsl(225, 20%, 60%) 100%);
 }
 
 .camposlider::-webkit-slider-thumb:hover {
+    box-shadow: 0px 10px 30px hsl(174, 86%, 45%);
     opacity: 1;
 }
 
@@ -51,14 +52,14 @@ input[type=range] {
 .camposlider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: hsl(174, 86%, 45%);
     background-image: url(../images/icon-slider.svg);
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 0px 10px 30px hsl(174, 86%, 45%);
+    
     background-size: 15px;
     cursor: pointer;
 } 
@@ -80,7 +81,7 @@ input[type=range] {
 .content3 {
     position: relative;
     top: 10%;
-    left: 20%;
+    left: 30%;
 }
 
 .content3 .sifra {
@@ -90,22 +91,19 @@ input[type=range] {
 
 .content3 input[type=text] {
     border: none;
-    font-size: 15px;
     color: hsl(227, 35%, 25%);
-    width: 20%;
+    width: 7%;
  }
 
  .content3 input[value] {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 900;
     color: hsl(227, 35%, 25%);
 }
 
  .content3 .mes {
-     font-size: 12px;
-     font-weight: 600;
      color: hsl(225, 20%, 60%);
-     
+     margin-left: 3%;
  }
 
  .content4 {

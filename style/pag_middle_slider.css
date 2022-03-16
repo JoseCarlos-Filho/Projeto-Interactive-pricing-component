@@ -62,16 +62,16 @@
   }
 
   /* ------- input campo de desconto ----------- */
-  .content4 input[type=text] {
+  .content4 .desconto {
     border: none;
     font-size: 12px;
     font-weight: bold;
     color: hsl(15, 100%, 70%);
-    width: 12%;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: hsl(14, 92%, 95%);
     text-align: center;
-    margin-left: 1%;
+    margin-left: 2%;
+    padding: 1.5%;
  }
 
  /* -----------------Labels do campo slider --------- */
