@@ -43,7 +43,7 @@ input[type=range] {
     background: linear-gradient(90deg, hsl(225, 20%, 60%) 100%, hsl(225, 20%, 60%) 100%);
 }
 
-.camposlider:hover {
+.camposlider::-webkit-slider-thumb:hover {
     opacity: 1;
 }
 
