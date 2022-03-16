@@ -1,28 +1,3 @@
-/* Arquivo de estilos */
-
-
-/* ---------- top page primeira section ------------ */
-    
-
-/* ---------- fim top page ------------ */
-
-/* ---------- Componente do meio caixa branca. segunda section -------------- */
-
-
-/* ------------- caixa branca seção do meio ------------------ */
-
-/* ------------ Estilos dos componentes  da seção do meio ---------------------- */
-
-
-
- /* --------------- Seção do campo slider ------------------ */
-
- 
-
-
-/* ------------- fim dos estilos dos componentes -------------*/
-
-/* ------------- ultimo componente caixa branca - Box_Footer  ------------------ */
 .box_footer {
     display: flex;
     justify-content: center;

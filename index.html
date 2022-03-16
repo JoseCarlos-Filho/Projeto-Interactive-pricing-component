@@ -14,64 +14,65 @@
   <title>Componente de Preço Interativo</title>
 </head>
 <body>
-    
-    <section class="top_page">
-          <div>
-              <h1>Simple, traffic-based pricing</h1>
-              <p>Sign-up for our 30-day trial. No credit card required.</p>
-          </div>
-          <img  class="img_top_circle" src="./images/pattern-circles.svg" alt="">
-    </section>
-
-    <section class="box_middle">
-
-      <div class="box_white1">
-
-            <div class="content1"> 
-                <p><span id="valor"><p class="p1">K</p></span>PAGEVIEWS</p>
-            </div>
-
-            <div class="content2">
-                <input type="range" id="campo" min="1" max="5" step="1" value="3" class="camposlider">
-            </div>
-
-            <div class="content3">
-              <!-- <Label class="sifra">$</Label><input type="text" id="preco" value="16"><label class="mes">/month</label> -->
-              <span class="sifra">$ <input type="text" id="preco" value="16">.00</span><span class="mes">/month</span>
+    <main>
+      <section class="top_page">
+            <div>
+                <h1>Simple, traffic-based pricing</h1>
+                <p>Sign-up for our 30-day trial. No credit card required.</p>
+                <img  class="img_top_circle" src="./images/pattern-circles.svg" alt="">
             </div>
             
-            <div class="content4">
-                <!-- <label for="" class="label1">Monthly Billing</label> -->
-                <span class="label1">Monthly Billing</span>
-                <label class="switch">
-                  <input type="checkbox"  id="toggle" checked>
-                  <span class="slider round"></span>
-                </label>
-                <span class="label1"> Yearly Billing<span>
-                <span class="desconto" id="desconto"> 25% discount</span>  
-                <!-- <input type="text" value="-25%" id="desconto"> -->
+      </section>
+
+      <section class="box_middle">
+
+        <div class="box_white1">
+
+              <div class="content1"> 
+                  <p><span id="valor"><p class="p1">K</p></span>PAGEVIEWS</p>
+              </div>
+
+              <div class="content2">
+                  <input type="range" id="campo" min="1" max="5" step="1" value="3" class="camposlider">
+              </div>
+
+              <div class="content3">
+                <!-- <Label class="sifra">$</Label><input type="text" id="preco" value="16"><label class="mes">/month</label> -->
+                <span class="sifra">$ <input type="text" id="preco" value="16">.00</span><span class="mes">/month</span>
+              </div>
+              
+              <div class="meses">
+                  <!-- <label for="" class="label1">Monthly Billing</label> -->
+                  <span class="label1">Monthly Billing</span>
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  <span class="label1"> Yearly Billing<span>
+                  <span class="desconto" id="desconto"> 25% discount</span>  
+                  <!-- <input type="text" value="-25%" id="desconto"> -->
+              </div>
+
             </div>
 
-          </div>
+      </section>
 
-    </section>
-
-    <section class="box_footer">
-      
-      <div class="list_footer">
+      <section class="box_footer">
         
-        <ul>
-          <li>Unlimited websites</li>
-          <li>100% data ownership</li>
-          <li>Email reports</li>
-        </ul>
+        <div class="list_footer">
+          
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          
+          <button>Start my trial</button>
         
-        <button>Start my trial</button>
-      
-      </div>
+        </div>
 
-    </section>
-
+      </section>
+    </main>
   </body>
   <script src="JS/acoes.js"></script>
 </html>
