@@ -1,7 +1,9 @@
-.box_footer {
+/* .box_footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin: 0 auto;
 }
 
 .list_footer {
@@ -42,6 +44,6 @@ li::before {
     background-color: hsl(227, 35%, 25%);
     color: hsl(0, 0%, 100%);
     text-align: center;
-}
+} */
 
 /* --------------- fim do bloco de lista Footer ------------------ */

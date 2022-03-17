@@ -1,22 +1,16 @@
 .box_middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box_white1 {
     height: 40%;
     width: 90%;
-    margin-left: 1%;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 0px 10px hsl(225, 20%, 60%);
-    
-    position: absolute;
-    z-index: 20;
-    top: 32%;
+    margin-top: 5em;
+}
 
+.box_white {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
+
+    margin-top: 1em;
 }

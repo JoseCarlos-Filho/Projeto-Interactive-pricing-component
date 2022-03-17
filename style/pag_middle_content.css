@@ -1,32 +1,27 @@
-.content1 {
+ .content1 {
     position: relative;
     top: -20%;
-    display: flex;
-}
+    margin-top: 1em;
 
-.content1 p {
+    display: flex;
+
     font-size: 15px;
     font-weight: 800;
     color: hsl(225, 20%, 60%);
-    margin: 0 auto;
-    
-}
+} 
 
 .content1 .p1 {
     padding: 0px 5px 0px 0px;
-    font-size: 15px;
-    font-weight: 800;
-    color: hsl(225, 20%, 60%);
     
 } 
 
-.content1 span {
+/* .content1 span {
     font-size: 15px;
     font-weight: 800;
     color: hsl(225, 20%, 60%);
     padding: 0px;
     
-}
+} */
 
  .content2 {
     position: relative;
