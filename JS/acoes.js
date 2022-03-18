@@ -1,44 +1,114 @@
-var slider = document.querySelector("#campo");
-var saida = document.querySelector("#valor");
-var precovenda = document.querySelector('#preco');
-var mesano = document.querySelector('#toggle');
+// Seletores.
 
-saida.innerHTML = slider.value;
+let seletorSwitch = document.querySelector(".switch input"),
 
-slider.oninput = function() {
-    saida.innerHTML = this.value;
-    var n = saida.innerHTML;
+    mesAno = document.querySelector(".mes"),
+    preco = document.querySelector(".content3 .precofixo"),
+    switcher = document.querySelector(".switch"),
+    range = document.querySelector(".camposlider");
 
-    if (mesano.checked = true) {
-        if ((n >= 0) && (n < 8)) {
-            precovenda.value = '0.00';
-            precovenda.innerHTML = precovenda.value;
-        }
-        else if ((n >= 8) && (n < 50)) {
-            precovenda.value = '8.00';
-            precovenda.innerHTML = precovenda.value;
-        }
-        else if ((n >= 50) && (n < 100)) {
-            precovenda.value = '12.00';
-            precovenda.innerHTML = precovenda.value;
-        }
-        else if ((n >= 100) && (n < 500)) {
-            precovenda.value = '16.00';
-            precovenda.innerHTML = precovenda.value;
-        } 
-        else if ((n >= 500) && (n < 1000)) {
-            precovenda.value = '24.00';
-            precovenda.innerHTML = precovenda.value;
+    // criação do preço no Switch;
+
+    switcher.onclick = function() {
+
+        if(seletorSwitch.checked == true) {
+
+            let precoInt = parseInt(preco.textContent);
+            preco.textContent = `${(precoInt - (precoInt * .25)) * 12}`;
+
+            mesAno.textContent = `/year`;
         }
         else {
-            precovenda.value = '36.00';
-            precovenda.innerHTML = precovenda.value;
+
+            upadatePrice()
+
+            mesAno.textContent = `/month`;
         }
+    }
+
+
+    // adiciona seletor na page-view
+
+    let verPage = document.querySelector(".content1 span");
+
+    // adiciona evento listener no inputer
+
+    range.addEventListener("input", upadatePrice);
+
+
+// carregando o preço.
+
+function upadatePrice() {
+
+    if(range.value == 1) {
+        
+        if(seletorSwitch.checked == true) {
+            preco.textContent = `${(8 - (8 * .25)) * 12}`;
+        }
+        else {
+            preco.textContent = 8;
+        }
+
+        verPage.textContent = "10K";
+    }
+
+    if(range.value == 2) {
+
+        if(seletorSwitch.checked == true) {
+            preco.textContent = 108;
+        }
+        else {
+
+            preco.textContent = 12;
+
+        }
+
+        verPage.textContent = "50K";
+    }
+
+    if(range.value == 3) {
+        
+        if(seletorSwitch.checked == true) {
+            preco.textContent = 144;
+        }
+        else {
+
+            preco.textContent = 16;
+
+        }
+
+        verPage.textContent = "100K";
+    }
+
+    if(range.value == 4) {
+        if(seletorSwitch.checked == true) {
+            preco.textContent = 216;
+        }
+        else {
+
+            preco.textContent = 24;
+
+        }
+
+        verPage.textContent = "500K";
+    }
+
+    if(range.value == 5) {
+        if(seletorSwitch.checked == true) {
+            preco.textContent = 324;
+        }
+        else {
+
+            preco.textContent = 36;
+
+        }
+
+        verPage.textContent = "1M";
     }
 }
 
-slider.addEventListener("mousemove", function(){
-    var x = slider.value;
+range.addEventListener("mousemove", function(){
+    var x = range.value;
     var color = 'linear-gradient(90deg, hsl(174, 77%, 80%)' + x + '%, hsl(225, 20%, 60%)' + x + '%)';
-    slider.style.background = color;
+    range.style.background = color;
 })

@@ -10,10 +10,9 @@
     color: hsl(225, 20%, 60%);
 } 
 
-.content1 .p1 {
-    padding: 0px 5px 0px 0px;
-    
-} 
+.content1 span {
+    margin: 5px;
+}
 
  .content2 {
    margin-top: 2em;
@@ -25,7 +24,7 @@
     width: 300px; 
     border-radius: 5px;
     outline: none;
-    background: linear-gradient(90deg, hsl(223, 50%, 87%) 100%, hsl(223, 50%, 87%) 100%);
+    background: linear-gradient(90deg, hsl(224, 65%, 95%), hsl(224, 65%, 95%));
 }
 
 .camposlider::-webkit-slider-thumb:hover {
