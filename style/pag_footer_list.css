@@ -1,49 +1,40 @@
-/* .box_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 0 auto;
-}
-
-.list_footer {
+.box_footer {
     height: 25%;
-    width: 90%;
-    margin-left: 1%;
+    width: 100%;
+    margin-top: 1px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 5px 10px hsl(225, 20%, 60%);
 
-    position: absolute;
-    z-index: 20;
-    top: 72.12%;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-li {
-    list-style: none;
-    font-size: 12px;
-    color: hsl(225, 20%, 60%);
-    margin: 3% 0% 10% 0%;
+.box_footer ul {
+    list-style-image: url("../images/icon-check.svg");
+    list-style-position: inside;
     text-align: center;
 }
 
-li::before {
-    content: url(../images/icon-check.svg);
-    position: relative;
-    left: -7%;
+.box_footer li {
+    margin: 5px 0px 2px 0;
 }
 
-.list_footer button {
-    height: 35px;
-    width: 150px;
-    border-radius: 50px;
+.box_footer button {
+    height: 45px;
+    width: 180px;
+    border: none;
+    color: white;
     background-color: hsl(227, 35%, 25%);
-    color: hsl(0, 0%, 100%);
-    text-align: center;
-} */
 
-/* --------------- fim do bloco de lista Footer ------------------ */
+    border-radius: 22px;
+    margin-top: 1em;
+
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 400;
+}
