@@ -27,11 +27,11 @@ let seletorSwitch = document.querySelector(".switch input"),
     }
 
 
-    // adiciona seletor na page-view
+    // adiciona seletor no verPage
 
     let verPage = document.querySelector(".content1 span");
 
-    // adiciona evento listener no inputer
+    // adiciona evento listener no input
 
     range.addEventListener("input", upadatePrice);
 
@@ -107,8 +107,8 @@ function upadatePrice() {
     }
 }
 
-range.addEventListener("mousemove", function(){
-    var x = range.value;
-    var color = 'linear-gradient(90deg, hsl(174, 77%, 80%)' + x + '%, hsl(225, 20%, 60%)' + x + '%)';
-    range.style.background = color;
-})
+// range.addEventListener("mousemove", function(){
+//     var x = range.value;
+//     var color = 'linear-gradient(90deg, hsl(174, 77%, 80%)' + x + '%, hsl(225, 20%, 60%)' + x + '%)';
+//     range.style.background = color;
+// })

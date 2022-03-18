@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive pricing component
+# Componente de preços interativo
 
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
 

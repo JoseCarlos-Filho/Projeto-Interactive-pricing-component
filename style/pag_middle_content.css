@@ -24,7 +24,7 @@
     width: 300px; 
     border-radius: 5px;
     outline: none;
-    background: linear-gradient(90deg, hsl(224, 65%, 95%), hsl(224, 65%, 95%));
+    background: linear-gradient(90deg, hsl(174, 77%, 80%), hsl(174, 86%, 45%));
 }
 
 .camposlider::-webkit-slider-thumb:hover {
