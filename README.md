@@ -44,33 +44,45 @@ seu plano de leitura anual ou mensal podendo mostrar os valores de acordo com a 
 
 HTML: Tags SPAN, INPUT<TYPE=""RANGE">, INPUT<TYPE="CHECKBOX">, LABEL.
 
-SPAN: Formas diferentes de manipular informação em uma página HTML. 
-INPUT<TYPE="RANGE">: Montar a barra de progresso.
-INPUT<TYPE="CHECKBOX">: Montar o componente do check.
-LABEL: Exibi a descrição das informações.
+#### SPAN: 
+    Formas diferentes de manipular informação em uma página HTML. 
+#### INPUT<TYPE="RANGE">: 
+                    Montar a barra de progresso.
+#### INPUT<TYPE="CHECKBOX">: 
+                    Montar o componente do check.
+#### LABEL: 
+      Exibi a descrição das informações.
 ______________________________________________________________________
 
-CSS: pseudo-elemento(-webkit-slider-thumb, -moz-range-thumb), 
-     Seletores(:first-of-type, :last-of-type, :hover, :checked + .slider).
+#### CSS: 
+                 pseudo-elemento(-webkit-slider-thumb, -moz-range-thumb), 
+                 Seletores(:first-of-type, :last-of-type, :hover, :checked + .slider).
 
-pseudo-elemento: Um pseudoelemento CSS é uma palavra-chave adicionada a um seletor que 
+#### pseudo-elemento: 
+                 Um pseudoelemento CSS é uma palavra-chave adicionada a um seletor que 
                  permite estilizar uma parte específica do(s) elemento(s) selecionado(s).
 
-pseudo-elemento -webkit-slider-thumb : pseudo-elementos para estilizar entradas de intervalo. 
-                 Utilizado para o navegador chrome.
+#### pseudo-elemento -webkit-slider-thumb : 
+                                       pseudo-elementos para estilizar entradas de intervalo. 
+                                       Utilizado para o navegador chrome.
 
-pseudo-elemento -moz-range-thumb : pseudo-elementos para estilizar entradas de intervalo. 
-                 Utilizado para o navegador Firefox.
+#### pseudo-elemento -moz-range-thumb : 
+                                   pseudo-elementos para estilizar entradas de intervalo. 
+                                   Utilizado para o navegador Firefox.
 
-seletor :first-of-type -> seletor em CSS permite que você direcione a primeira ocorrência 
+#### seletor :first-of-type -> 
+                          seletor em CSS permite que você direcione a primeira ocorrência 
                           de um elemento dentro de seu contêiner.
 
-seletor :last-of-type -> seletor representa o último irmão com o nome de elemento dado na lista 
+#### seletor :last-of-type -> 
+                         seletor representa o último irmão com o nome de elemento dado na lista 
                          de filhos de seu elemento pai.
 
-seletor :hover -> seletor é usado para selecionar elementos quando você passa o mouse sobre eles.
+#### seletor :hover -> 
+                  seletor é usado para selecionar elementos quando você passa o mouse sobre eles.
 
-:checked + .slider -> A pseudo-classe :checked de um seletor CSS representa um elemento 
+#### :checked + .slider -> 
+                      A pseudo-classe :checked de um seletor CSS representa um elemento 
                       radio (<input type="radio">), checkbox (<input type="checkbox">) 
                       ou option (<option> em um <select>)  que está marcada ou alternado 
                       para um estado ligado. O usuário pode mudar seu estado clicando no 
@@ -79,7 +91,7 @@ seletor :hover -> seletor é usado para selecionar elementos quando você passa 
                       um elemento relevante.
 ______________________________________________________________________
 
-JavaScript:
+#### JavaScript:
 
 document.querySelector -> método retorna o primeiro elemento que corresponde a um seletor CSS
 
