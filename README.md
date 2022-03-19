@@ -42,7 +42,8 @@ seu plano de leitura anual ou mensal podendo mostrar os valores de acordo com a 
 
 ## O que aprendeu
 
-HTML: Tags SPAN, INPUT<TYPE=""RANGE">, INPUT<TYPE="CHECKBOX">, LABEL.
+#### HTML:
+      Tags SPAN, INPUT<TYPE=""RANGE">, INPUT<TYPE="CHECKBOX">, LABEL.
 
 #### SPAN: 
     Formas diferentes de manipular informação em uma página HTML. 
@@ -93,16 +94,20 @@ ______________________________________________________________________
 
 #### JavaScript:
 
-document.querySelector -> método retorna o primeiro elemento que corresponde a um seletor CSS
+#### document.querySelector -> 
+                        método retorna o primeiro elemento que corresponde a um seletor CSS
 
-Evento onclick -> evento ocorre quando o usuário clica em um elemento.
+#### Evento onclick -> 
+                        evento ocorre quando o usuário clica em um elemento.
 
-Função parseInt() -> analisa um argumento string e retorna um inteiro na base especificada.
+#### Função parseInt() -> 
+                        analisa um argumento string e retorna um inteiro na base especificada.
 
-DOM elemento textContent -> propriedade define ou retorna o conteúdo de texto do nó especificado
-                            e todos os seus descendentes .
+#### DOM elemento textContent -> 
+                          propriedade define ou retorna o conteúdo de texto do nó especificado
+                          ####e todos os seus descendentes .
 
-Método addEventListener() -> é usado para anexar um manipulador de eventos a um elemento 
+#### Método addEventListener() -> é usado para anexar um manipulador de eventos a um elemento 
                              específico. Ele não substitui os manipuladores de eventos existentes. 
                              Eventos são considerados uma parte essencial do JavaScript. 
                              Uma página da web responde de acordo com o evento que ocorreu. 
