@@ -1,105 +1,118 @@
 # Componente de preços interativo
 
-![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
+![Componente de preços interativo](./design/mobile-design.jpg)
 
-## Welcome! 👋
+## Conteudos
 
-Thanks for checking out this front-end coding challenge.
+- [Resumo](#Resumo)
+  - [Descrição](#Descrição)
+  - [Funcionalidade](#Funcionalidade)
+  - [Links](#links)
+- [O que aprendeu](#O-que-aprendeu)
+  - [Construido com](#Construido-com)
+  - [Continuar Desenvolvendo](#continuar-desenvolvendo)
+- [Autor](#autor)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## Resumo
 
-## The challenge
+Foco em utilizar as tecnologias HTML, CSS e JavaScript, colocando 
+em pratica os conhecimentos adiquiridos para construção do slider 
+de preço interativo, durante a participação da Comunidade Code.   
 
-Your challenge is to build out this interactive pricing component and get it looking as close to the design as possible.
+### Drescrição
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Desenvolver componente interativo de preço que possa ter interação do usuário dia acordo
+com a necessidade de leitura de livros e valor a ser pago aplicando tecnologia HTML, CSS e JavaScript.
 
-Your users should be able to:
+### Funcionalidade
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Use the slider and toggle to see prices for different page view numbers (details provided below)
+A aplicação possui uma barra com um botão no centro (Tag INPUT do tipo RANGE) na qual o usuário interage
+vizualizando a quantidade de páginas (Tag SPAN ) dejada para leitura informação disposta logo acima da barra
+e o valor do plano também é exibido (Tag SPAN) de acordo com a variação da quantidade de páginas desejada.
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+Aplicação também dispõe de um botão (Botão do tipo TOGGLE criada em CSS) logo abaixo do preço em que o usuário pode interagir escolhendo
+seu plano de leitura anual ou mensal podendo mostrar os valores de acordo com a interação do usuário.
 
-### Page view and pricing totals
 
-Here are the different page view ranges and the corresponding monthly price totals:
+### Links
 
-- 10K pageviews / $8 per month
-- 50K pageviews / $12 per month
-- 100K pageviews / $16 per month
-- 500k pageviews / $24 per month
-- 1M pageviews / $36 per month
+- Deploy da aplicação: [Componente de preços interativo](https://jose-calos-componente-preco-interativo.netlify.app/)
 
-If the visitor switches the toggle to yearly billing, a 25% discount should be applied to all prices.
+## O que aprendeu
 
-## Where to find everything
+HTML: Tags SPAN, INPUT<TYPE=""RANGE">, INPUT<TYPE="CHECKBOX">, LABEL.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+SPAN: Formas diferentes de manipular informação em uma página HTML. 
+INPUT<TYPE="RANGE">: Montar a barra de progresso.
+INPUT<TYPE="CHECKBOX">: Montar o componente do check.
+LABEL: Exibi a descrição das informações.
+______________________________________________________________________
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+CSS: pseudo-elemento(-webkit-slider-thumb, -moz-range-thumb), 
+     Seletores(:first-of-type, :last-of-type, :hover, :checked + .slider).
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+pseudo-elemento: Um pseudoelemento CSS é uma palavra-chave adicionada a um seletor que 
+                 permite estilizar uma parte específica do(s) elemento(s) selecionado(s).
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+pseudo-elemento -webkit-slider-thumb : pseudo-elementos para estilizar entradas de intervalo. 
+                 Utilizado para o navegador chrome.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+pseudo-elemento -moz-range-thumb : pseudo-elementos para estilizar entradas de intervalo. 
+                 Utilizado para o navegador Firefox.
 
-## Building your project
+seletor :first-of-type -> seletor em CSS permite que você direcione a primeira ocorrência 
+                          de um elemento dentro de seu contêiner.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+seletor :last-of-type -> seletor representa o último irmão com o nome de elemento dado na lista 
+                         de filhos de seu elemento pai.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+seletor :hover -> seletor é usado para selecionar elementos quando você passa o mouse sobre eles.
 
-## Deploying your project
+:checked + .slider -> A pseudo-classe :checked de um seletor CSS representa um elemento 
+                      radio (<input type="radio">), checkbox (<input type="checkbox">) 
+                      ou option (<option> em um <select>)  que está marcada ou alternado 
+                      para um estado ligado. O usuário pode mudar seu estado clicando no 
+                      elemento, ou selecionando um valor diferente, nesse caso a 
+                      pseudo-classe :checked não se aplica a esse elemento, mas vai para
+                      um elemento relevante.
+______________________________________________________________________
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+JavaScript:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+document.querySelector -> método retorna o primeiro elemento que corresponde a um seletor CSS
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+Evento onclick -> evento ocorre quando o usuário clica em um elemento.
 
-## Create a custom `README.md`
+Função parseInt() -> analisa um argumento string e retorna um inteiro na base especificada.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+DOM elemento textContent -> propriedade define ou retorna o conteúdo de texto do nó especificado
+                            e todos os seus descendentes .
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Método addEventListener() -> é usado para anexar um manipulador de eventos a um elemento 
+                             específico. Ele não substitui os manipuladores de eventos existentes. 
+                             Eventos são considerados uma parte essencial do JavaScript. 
+                             Uma página da web responde de acordo com o evento que ocorreu. 
+                             Os eventos podem ser gerados pelo usuário ou gerados por APIs. 
+                             Um ouvinte de eventos é um procedimento de JavaScript que aguarda 
+                             a ocorrência de um evento.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Construido com
 
-## Submitting your solution
+- HTML5
+- CSS 
+- Mobile-first workflow
+- JavaScript
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Continuar Desenvolvendo
 
-## Sharing your solution
+Aplicar CSS background: gradient  utilizando o evento addEventListener() para formatar a barra
+do slider.
 
-There are multiple places you can share your solution:
+Tornar aplicação responsiva para desktop e outros dispositivos.
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+## Autor
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Copyright: [José Carlos Rodrigues Filho](https://jose-calos-componente-preco-interativo.netlify.app/)
